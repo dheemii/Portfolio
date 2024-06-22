@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #333);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #444;
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    color: #00aaff;
+}
+
+nav a {
+    color: #ffffff;
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #00aaff;
+}
+
+.bio {
+    display: flex;
+    margin-top: 40px;
+}
+
+.photo img {
+    border-radius: 10px;
+    width: 300px;
+    height: auto;
+}
+
+.info {
+    margin-left: 40px;
+}
+
+.info h1 {
+    color: #00aaff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.info p {
+    margin-bottom: 20px;
+    line-height: 1.6;
+}
+
+.skills {
+    margin-top: 20px;
+}
+
+.skills h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill-list span {
+    background: linear-gradient(135deg, #1e3c72, #2a5298, #333);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.centere {
+    text-align: center;
+}

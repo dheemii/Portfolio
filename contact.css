@@ -1,0 +1,85 @@
+/* styles.css */
+
+body {
+    background: linear-gradient(to bottom, #000066, #000);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #00bfff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+.contact-section {
+    text-align: center;
+    padding: 50px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    font-size: 16px;
+    color: #99ccff;
+}
+
+.contact-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    margin: 0 20px;
+}
+
+.icon img {
+    width: 30px;
+    height: 30px;
+}
+
+.icon p {
+    font-size: 14px;
+}
+
+.portfolio-year {
+    font-size: 12px;
+    margin-top: 20px;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    border-top: 1px solid #444;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.centere {
+    text-align: center;
+}
